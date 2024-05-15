@@ -1,7 +1,7 @@
 import sys, os
 
 # csfp - current_script_folder_path
-csfp = os.path.abspath(os.path.dirname('RK_Stuff/CORK1024C'))
+csfp = os.path.abspath(os.path.dirname('CORK_Stuff/CORK1024C'))
 if csfp not in sys.path:
     sys.path.insert(0, csfp)
 
